@@ -2,6 +2,8 @@ name: 'EUserv Auto Extend'
 
 on:
   push:
+  watch:
+    types: started
     branches:
       - main
   schedule:
